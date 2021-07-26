@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+     <head>
+          <!-- Required meta tags -->
+          <meta charset="UTF-8">
+          <meta http-equiv="X-UA-Compatible" content="IE=edge">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>ArghyaRaj Niloy - Front-End Developer</title>
+          <!-- Favicon -->
+          <link href="img/logo/favicon.png" rel="icon">
+          <!-- Google Fonts -->
+          <link rel="preconnect" href="https://fonts.gstatic.com">
+          <link href="https://fonts.googleapis.com/css2?family=Newsreader:wght@700&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
+          <!-- FONT AWESOME -->
+          <script src="https://kit.fontawesome.com/ea26b1f313.js" crossorigin="anonymous"></script>
+          <!-- Bootstrap CSS -->
+          <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+          <!-- Owl Carousel CSS -->
+          <link rel="stylesheet" href="owlCarousel/owl.carousel.min.css">
+          <link rel="stylesheet" href="owlCarousel/owl.theme.default.min.css">
+          <!-- Animation -->
+          <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+          <link rel="stylesheet" href="animation/animate.css">
+          <!-- NeonBtn -->
+          <link rel="stylesheet" href="css/neonBtn.css">
+          <!-- Custome CSS -->
+          <link rel="stylesheet" href="css/style.css">
+          <link rel="stylesheet" href="css/responsive.css">
+     </head>
+     <body>
+          <!-- Header -->
+          <header id="header">
+               <!-- Header Menu -->
+               <div class="header-menu">
+                    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+                         <div class="container">
+                              <!-- Logo -->
+                              <a class="navbar-brand" href="index.html">ArghyaRaj <small>Niloy</small></a>
+                              <!-- Toggler Button -->
+                              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                   <span class="navbar-toggler-icon"></span>
+                              </button>
+                              <!-- Navbar -->
+                              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                   <ul class="navbar-nav ml-auto">
+                                        <li class="nav-item active">
+                                             <a class="nav-link" href="#header">
+                                                  <span>Home</span>
+                                                  <span>Home</span>
+                                                  <span class="sr-only">(current)</span>
+                                             </a>
+                                        </li>
+                                        <li class="nav-item">
+                                             <a class="nav-link" href="#service">
+                                                  <span>service</span>
+                                                  <span>service</span>
+                                             </a>
+                                        </li>
+                                        <li class="nav-item">
+                                             <a class="nav-link" href="#education">
+                                                  <span>Education</span>
+                                                  <span>Education</span>
+                                             </a>
+                                        </li>
+                                        <li class="nav-item">
+                                             <a class="nav-link" href="#blog">
+                                                  <span>blog</span>
+                                                  <span>blog</span>
+                                             </a>
+                                        </li>
+                                        <li class="nav-item" data-toggle="modal" data-target="#contactModal">
+                                             <a class="nav-link" href="#">
+                                                  <span>contact</span>
+                                                  <span>contact</span>
+                                             </a>
+                                        </li>
+                                        <!-- Dropdown Menu/Information -->
+                                        <li class="nav-item dropdown">
+                                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                  <img src="img/id/niloy.jpg" class="rounded-circle" alt="">
+                                             </a>
+                                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                                  <div class="info">
+                                                       <img src="img/id/niloy.jpg" class="rounded-circle" alt="">
+                                                       <h6>ArghyaRaj Niloy</h6>
+                                                       <span>arniloy.official@gmail.com</span>
+                                                       <p><i class="fas fa-circle"></i>Active</p>
+                                                  </div>
+                                                  <a class="dropdown-item" href="#" onclick="notwork()">Manage your Account</a>
+                                                  <a class="dropdown-item" href="#" onclick="notwork()">Purchases and memberships</a>
+                                                  <a class="dropdown-item" href="#" onclick="info()">Download CV</a>
+                                                  <a class="dropdown-item" href="#" onclick="notwork()">Settings</a>
+                                                  <div class="dropdown-divider"></div>
+                                                  <a class="dropdown-item" href="#" onclick="logout()"><i class="fas fa-sign-out-alt"></i>Logout</a>
+                                             </div>
+                                        </li>
+                                   </ul>
+                              </div>
+                         </div>
+                    </nav>
+               </div>
+               <!-- Header Information -->
+               <div class="header-info">
+                    <div class="row no-gutters">
+                         <div class="col-xs-6 col-sm-6 col-md-6">
+                              <img src="img/id/niloy.jpg" alt="" class="responsive">
+                         </div>
+                         <div class="col-xs-6 col-sm-6 col-md-6">
+                              <div class="info wow fadeInRight">
+                                   <!-- Information -->
+                                   <div class="container">
+                                        <h1>Hello! I'm<br>ArghyaRaj Niloy</h1>
+                                        <h2>Front-End WEB Developer</h2>
+                                        <p>I am currently enrolled in my Bachelor programme and will receive my degree on next spring. While I have a curriculum background on software field, I have been practicing front-end development for last three years & WordPress development for last One years.</p>
+                                        <a href="cv.pdf" class="btn btn-light mr-3" download>Download CV</a>
+                                        <a href="#" class="btn btn-outline-light" data-toggle="modal" data-target="#contactModal">Contact With Me</a>
+                                        <!-- Social Link -->
+                                        <div class="social-link">
+                                             <ul>
+                                                 <li><a href="https://www.facebook.com/ArghyaRaj04/"><i class="fab fa-facebook"></i></a></li>
+                                                 <li><a rel="nofollow" href="mailto:arniloy0712@gmail.com"><i class="fas fa-envelope"></i></a></li>
+                                                 <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                                 <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                                 <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                             </ul>
+                                         </div>
+                                        <p>Thank you for your time and consideration.</p>
+                                   </div>
+                              </div>
+                         </div>
+                    </div>
+               </div>
+          </header>
+          <!-- Header End -->
+
+          <!-- Modal Contact With Me Start -->
+          <div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+               <div class="modal-dialog">
+                    <div class="modal-content">
+                         <div class="modal-header">
+                              <h3 class="modal-title" id="exampleModalLabel">Contact With Me</h3>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                   <span aria-hidden="true">&times;</span>
+                              </button>
+                         </div>
+                         <div class="modal-body">
+                              <!-- Form (action:https://formspree.io/) -->
+                              <form action="https://formspree.io/f/moqyelqq" method="POST">
+                                   <div class="row">
+                                        <div class="col-6">
+                                             <div class="form-group">
+                                                  <input type="text" class="form-control" id="" name="First Name" placeholder="First Name">
+                                             </div>
+                                        </div>
+                                        <div class="col-6">
+                                             <div class="form-group">
+                                                  <input type="text" class="form-control" id="" name="Last Name" placeholder="Last Name">
+                                             </div>
+                                        </div>
+                                   </div>
+                                   <div class="form-group">
+                                        <input type="email" class="form-control" name="Email" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email address" required>
+                                   </div>
+                                   <div class="form-group">
+                                        <textarea name="message" class="form-control" rows="5" placeholder="Write Your Project Details or Message"></textarea>
+                                   </div>
+                                   <div class="form-group">
+                                        <input type="checkbox" name="Checkbox" id="">
+                                        <label>I'm interested to work with you.</label>
+                                   </div>
+                                   <button type="submit" class="btn btn-dark">Submit</button>
+                              </form>
+                         </div>
+                    </div>
+               </div>
+          </div>
+          <!-- Modal End -->
+
+          <!-- Modal Hire Me Start -->
+          <div class="modal fade" id="hireModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+               <div class="modal-dialog">
+                    <div class="modal-content">
+                         <div class="modal-header">
+                              <h3 class="modal-title" id="exampleModalLabel">Hire Me If You Are Interested</h3>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                   <span aria-hidden="true">&times;</span>
+                              </button>
+                         </div>
+                         <div class="modal-body">
+                              <!-- Form (action:https://formspree.io/) -->
+                              <form action="https://formspree.io/f/xeqvlyed" method="POST">
+                                   <div class="row">
+                                        <div class="col-6">
+                                             <div class="form-group">
+                                                  <input type="text" class="form-control" id="" name="Name" placeholder="Your Name">
+                                             </div>
+                                        </div>
+                                        <div class="col-6">
+                                             <div class="form-group">
+                                                  <input type="number" class="form-control" name="" id="" name="Project" placeholder="Project Budget">
+                                             </div>
+                                        </div>
+                                   </div>
+                                   <div class="form-group">
+                                        <input type="email" class="form-control" name="Email" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email address" required>
+                                   </div>
+                                   <div class="form-group">
+                                        <textarea name="message" class="form-control" rows="5" placeholder="Write Your Project Details"></textarea>
+                                   </div>
+                                   <div class="form-group">
+                                        <input type="checkbox" name="Checkbox" id="">
+                                        <label>I'm interested to work with you.</label>
+                                   </div>
+                                   <button type="submit" class="btn btn-dark">Submit</button>
+                              </form>
+                         </div>
+                    </div>
+               </div>
+          </div>
+          <!-- Modal End -->
+
+          <main>
+               <section class="service-section" id="service">
+                    <div class="container">
+                         <div class="section-header wow fadeInRight">
+                              <span>WHAT I DO?</span>
+                              <h3>here are some of my expertise</h3>
+                         </div>
+
+                         <div class="service">
+                              <div class="row">
+                                   <div class="col-md-4">
+                                        <div class="box-info neonbtn wow fadeInLeft">
+                                             <span></span>
+                                             <span></span>
+                                             <span></span>
+                                             <span></span>
+                                             <h4>Front-End Development</h4>
+                                             <span>20Sep 2018 - Present</span>
+                                             <p>While I have a curriculum background on software field, I have been practicing front-end development for last three years.</p>
+                                             <a href="#" onclick="notwork()">See More About This <i class="fas fa-long-arrow-alt-right"></i></a>
+                                        </div>
+                                   </div>
+
+                                   <div class="col-md-4">
+                                        <div class="second-box box-info wow fadeInUp">
+                                             <span></span>
+                                             <span></span>
+                                             <span></span>
+                                             <span></span>
+                                             <h4>WordPress Development</h4>
+                                             <span>05Feb 2020 - Present</span>
+                                             <p>While I have a curriculum background on software field, I have been practicing WordPress development for last One years.</p>
+                                             <a href="#" onclick="notwork()">See More About This <i class="fas fa-long-arrow-alt-right"></i></a>
+                                        </div>
+                                   </div>
+                                   
+                                   <div class="col-md-4">
+                                        <div class="box-info neonbtn wow fadeInRight">
+                                             <span></span>
+                                             <span></span>
+                                             <span></span>
+                                             <span></span>
+                                             <h4>Graphic Design & SMM</h4>
+                                             <span>01May 2020 - Present</span>
+                                             <p>While I have a curriculum background on software field, I have been practicing Graphic Design & SMM for last two years.</p>
+                                             <a href="#" onclick="notwork()">See More About This <i class="fas fa-long-arrow-alt-right"></i></a>
+                                        </div>
+                                   </div>
+                              </div>
+                              <div class="more-btn wow fadeInUp">
+                                   <a href="#" onclick="notwork()">Know More Of My Expertise <i class="fas fa-long-arrow-alt-right"></i></a>
+                              </div>
+                         </div>
+                    </div>
+               </section>
+               
+               <section class="hireMe">
+                    <div class="container wow fadeInDown">
+                         <h3>I am happy to know you that 10+ projects done sucessfully!</h3>
+                         <p>I am currently enrolled in my Bachelor programme and will receive my degree on next spring. While I have a curriculum background on software field, I have been practicing front-end development for last three years, WordPress development & Graphic Design for last One years.</p>
+                         <a href="#" class="btn btn-outline-light" data-toggle="modal" data-target="#hireModal">Hire Me If You Are Interested</a>
+                    </div>
+               </section>
+
+               <section class="education-section" id="education">
+                    <div class="container">
+                         <div class="section-header wow fadeInLeft">
+                              <span>Education</span>
+                              <h3>Educational background</h3>
+                         </div>
+                         <div class="row">
+                              <div class="col-md-12 col-lg-6">
+                                   <!-- ***** FAQ Start ***** -->
+                                   <div class="faq wow fadeInLeft" id="accordion">
+                                        <div class="card">
+                                             <div class="card-header" id="faqHeading-1">
+                                                  <div class="mb-0">
+                                                       <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-1" data-aria-expanded="true" data-aria-controls="faqCollapse-1">
+                                                            Bachelor Degree of Computer Science
+                                                       </h5>
+                                                  </div>
+                                             </div>
+                                             <div id="faqCollapse-1" class="collapse" aria-labelledby="faqHeading-1" data-parent="#accordion">
+                                                  <div class="card-body">
+                                                       <p class="institute-info">2018-CURRENT | Leading University, Sylhet</p>
+                                                       <p><strong>Relevant coursework</strong>: Programming. Operating Systems. Compilers. Microprocessors. AI, Algorithms. Data Structures. Database. Computer Networks. Computer Architectures</p>
+                                                       <ul>
+                                                            <li>1st Year: CGPA: 3.04/4.00</li>
+                                                            <li>2nd Year: CGPA: 3.00/4.00</li>
+                                                            <li>3rd Year: CGPA: 3.00/4.00</li>
+                                                       </ul>
+                                                  </div>
+                                             </div>
+                                        </div>
+                                        <div class="card">
+                                             <div class="card-header" id="faqHeading-2">
+                                                  <div class="mb-0">
+                                                       <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-2" data-aria-expanded="false" data-aria-controls="faqCollapse-2">
+                                                            HSC - Science Group
+                                                       </h5>
+                                                  </div>
+                                             </div>
+                                             <div id="faqCollapse-2" class="collapse" aria-labelledby="faqHeading-2" data-parent="#accordion">
+                                                  <div class="card-body">
+                                                       <p class="institute-info">2016 | SCHOLARSHOME, Sylhet<br>GPA: 4.75</p>
+                                                       <p>Higher secondary course containing main subjects as mathematics, physics, chemistry and biology.</p>	
+                                                  </div>
+                                             </div>
+                                        </div>
+                                   </div>
+                              </div>
+                              <div class="col-md-12 col-lg-6">
+                                   <div class="faq wow fadeInRight" id="accordion">
+                                        <div class="card">
+                                             <div class="card-header" id="faqHeading-3">
+                                                  <div class="mb-0">
+                                                       <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-3" data-aria-expanded="false" data-aria-controls="faqCollapse-3">
+                                                            SSC - Science Group
+                                                       </h5>
+                                                  </div>
+                                             </div>
+                                             <div id="faqCollapse-3" class="collapse" aria-labelledby="faqHeading-3" data-parent="#accordion">
+                                                  <div class="card-body">
+                                                       <p class="institute-info">2014 | GOVT JUBILEE HIGH SCHOOL, Sunamganj, Sylhet<br>GPA: 4.88</p>
+                                                       <p>Secondary course containing main subjects as mathematics, physics, chemistry and biology.</p>
+                                                  </div>
+                                             </div>
+                                        </div>
+                                        <div class="card">
+                                             <div class="card-header" id="faqHeading-4">
+                                                  <div class="mb-0">
+                                                       <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-4" data-aria-expanded="false" data-aria-controls="faqCollapse-4">
+                                                            JSC - Junior School Certificate
+                                                       </h5>
+                                                  </div>
+                                             </div>
+                                             <div id="faqCollapse-4" class="collapse" aria-labelledby="faqHeading-4" data-parent="#accordion">
+                                                  <div class="card-body">
+                                                       <p class="institute-info">2012 | GOVT JUBILEE HIGH SCHOOL, Sunamganj, Sylhet<br>GPA: 4.50</p>
+                                                       <p>Secondary course containing main subjects as mathematics, physics, chemistry,Bangla, English and biology.</p>	
+                                                  </div>
+                                             </div>
+                                        </div>
+                                   </div>
+                              </div>
+                         </div>
+                    </div>
+               </section>
+               
+               <section class="blog" id="blog">
+                    <div class="container">
+                         <div class="section-header wow fadeInLeft">
+                              <span>BLOG</span>
+                              <h3>Blogs & Articles</h3>
+                              <p>Blogging refers to writing, photography, and other media that's self-published online. Blogging started as an opportunity for individuals to write diary-style entries, but it has since been incorporated into websites for many businesses.</p>
+                         </div>
+                         <div class="row">
+                              <div class="col-md-4">
+                                   <div class="blog-box wow fadeInLeft">
+                                        <h4>Graphic Design & SMM</h4>
+                                        <p class="post-excerpt">Donec ultrices faucibus rutrum. sodales Donec vitae leo at sem lobortis porttitor eu consequat risus Mauri.Estibulu gravida nulla nec congue, vitae soda. massa ullamcorper. Donec ultrices faucibus rutrum.</p>
+                                        <a href="#">See More About This <i class="fas fa-long-arrow-alt-right"></i></a>
+                                        <figure>
+                                             <figcaption>
+                                                  <p class="pull-left" onclick="comment()"><i class="fas fa-comments"></i></p>
+                                                  <p class="pull-right">29 May 2020<br/>ArghyaRaj Niloy<br/>204 Comments</p>
+                                             </figcaption>
+                                        </figure>
+                                   </div>
+                              </div>
+                              <div class="col-md-4">
+                                   <div class="blog-box wow fadeInUp">
+                                        <h4>Front-End Development</h4>
+                                        <p class="post-excerpt">Donec ultrices faucibus rutrum. sodales Donec vitae leo at sem lobortis porttitor eu consequat risus Mauri.Estibulu gravida nulla nec congue, vitae soda. massa ullamcorper. Donec ultrices faucibus rutrum.</p>
+                                        <a href="#">See More About This <i class="fas fa-long-arrow-alt-right"></i></a>
+                                        <figure>
+                                             <figcaption>
+                                                  <p class="pull-left" onclick="comment()"><i class="fas fa-comments"></i></p>
+                                                  <p class="pull-right">29 May 2020<br/>ArghyaRaj Niloy<br/>204 Comments</p>
+                                             </figcaption>
+                                        </figure>
+                                   </div>
+                              </div>
+                              <div class="col-md-4">
+                                   <div class="blog-box wow fadeInRight">
+                                        <h4>WordPress Development</h4>
+                                        <p class="post-excerpt">Donec ultrices faucibus rutrum. sodales Donec vitae leo at sem lobortis porttitor eu consequat risus Mauri.Estibulu gravida nulla nec congue, vitae soda. massa ullamcorper. Donec ultrices faucibus rutrum.</p>
+                                        <a href="#">See More About This <i class="fas fa-long-arrow-alt-right"></i></a>
+                                        <figure>
+                                             <figcaption>
+                                                  <p class="pull-left" onclick="comment()"><i class="fas fa-comments"></i></p>
+                                                  <p class="pull-right">29 May 2020<br/>ArghyaRaj Niloy<br/>204 Comments</p>
+                                             </figcaption>
+                                        </figure>
+                                   </div>
+                              </div>
+                         </div>
+                         <div class="more-btn wow fadeInUp">
+                              <a href="#" onclick="notwork()">Read More Of My Blogs & Articles <i class="fas fa-long-arrow-alt-right"></i></a>
+                         </div>
+                    </div>
+                </section>
+          </main>
+
+          <footer class="text-center small">
+			<p class="my-3">
+				Copyright &copy; ArghyaRaj Niloy. <a href="https://www.facebook.com/ArghyaRaj04/" title="Protfolio website">Designed by ArghyaRaj</a>
+			</p>
+		</footer>
+
+
+          <!-- Top Button -->
+          <!-- <button onclick="topFunction()" id="topBtn" title="Go to top"><i class="fas fa-arrow-alt-circle-up"></i></button> -->
+
+
+
+
+          <!-- Separate Popper and Bootstrap JS -->
+          <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+          <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" ></script>
+          <script src="bootstrap/bootstrap.min.js" ></script>
+          <script src="bootstrap/bootstrap.bundle.min.js" ></script>
+          <!-- Owl Carousel JS -->
+          <script src="owlCarousel/owl.carousel.min.js" ></script>
+          <!-- Sticky JS -->
+          <script src="js/jquery.sticky.js"></script>
+          <!-- Animation -->
+          <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+          <script src="animation/wow.min.js"></script>
+          <!-- SweetAlert -->
+          <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+          <!-- Custome JS -->
+          <script src="js/skill.js" ></script>
+          <script src="js/top.js" ></script>
+          <script src="js/navbar.js" ></script>
+          <script src="js/main.js" ></script>
+     </body>
+</html>

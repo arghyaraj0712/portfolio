@@ -1,0 +1,117 @@
+@media screen and (max-width: 1024px) {
+  header .header-info {
+    margin-top: 60px;
+  }
+  header .header-info .info {
+    padding: 30px 0 0 0;
+  }
+  header .header-info .info h1 {
+    font-size: 42px;
+  }
+  header .header-info .info h2 {
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  p, a {
+    font-size: 11px;
+  }
+  span {
+    font-size: 10px;
+  }
+  section {
+    padding: 60px 0;
+  }
+  .section-header {
+    margin-bottom: 30px;
+  }
+  header .header-info {
+    margin-top: 50px;
+  }
+  header .header-info .info {
+    padding: 30px 0 0 0;
+  }
+  header .header-info .info h1 {
+    font-size: 30px;
+  }
+  header .header-info .info h2 {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  header .header-info .info p {
+    margin: 10px 0;
+    font-size: 11px;
+  }
+  header .header-info .info .social-link {
+    margin-top: 10px;
+  }
+  header .header-info .info .social-link ul li {
+    margin: 5px;
+  }
+  main .service-section .service .box-info h4 {
+    font-size: 18px;
+  }
+  main .service-section .service .box-info p {
+    margin-top: 30px;
+  }
+  main .hireMe h3 {
+    font-size: 22px;
+  }
+  main .education-section .faq .card .card-body li {
+    font-size: 11px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  p, a {
+    font-size: 12px;
+  }
+  span {
+    font-size: 10px;
+  }
+  header .header-info .info {
+    padding: 60px 0;
+  }
+  header .header-info .info h1 {
+    font-size: 42px;
+  }
+  header .header-info .info h2 {
+    font-size: 24px;
+  }
+  header .header-info .info p {
+    font-size: 12px;
+  }
+  main .hireMe {
+    text-align: left;
+  }
+  main .hireMe h3 {
+    font-size: 20px;
+  }
+  main .education-section .faq .card .card-body li {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .section-header h3 {
+    font-size: 22px;
+  }
+  header .header-info .info {
+    padding: 60px 0;
+  }
+  header .header-info .info h1 {
+    font-size: 30px;
+  }
+  header .header-info .info h2 {
+    font-size: 18px;
+  }
+  header .header-info .info .social-link ul li {
+    margin: 5px;
+  }
+  main .service-section .service .box-info h4 {
+    margin-bottom: 0;
+    font-size: 18px;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */

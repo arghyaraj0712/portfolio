@@ -1,0 +1,556 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.responsive {
+    width: 100%;
+}
+
+h3,h4,h5,h6 {
+    font-family: 'Newsreader', serif;
+}
+
+p,a {
+    font-size: 14px;
+}
+
+span {
+    font-size: 12px;
+}
+
+section {
+    padding: 100px 0;
+    clear: both;
+}
+
+.section-header {
+    margin-bottom: 60px;
+
+    span {
+        letter-spacing: 5px;
+        text-transform: uppercase;
+    }
+
+    h3 {
+        font-size: 28px;
+        margin: 10px 0;
+        text-transform: capitalize;
+    }
+}
+
+
+header {
+    .header-menu {
+        .navbar-dark {
+            .navbar-brand {
+                font-weight: bold;
+                font-family: 'Newsreader', serif;
+
+                small {
+                    text-transform: uppercase;
+                }
+            }
+
+            .navbar-nav {
+                .nav-item {
+                    position: relative;
+                    list-style: none;
+                    margin: 10px 20px;
+
+                    &:hover {
+                        .nav-link{
+                            span {
+                                &:nth-child(1) {
+                                    transform: translateY(-100%);
+                                }
+
+                                &:nth-child(2) {
+                                    transform: translateY(-100%);
+                                }
+                            }
+                        }
+                    }
+
+                    .nav-link {
+                        font-weight: bold;
+                        letter-spacing: 3px;
+                        font-size: 14px;
+                        position: relative;
+                        height: 20px;
+                        display: block;
+                        text-decoration: none;
+                        overflow: hidden;
+                        text-transform: uppercase;
+                        padding: 0;
+
+                        span {
+                            font-size: 16px;
+                            display: block;
+                            transition: 0.8s;
+                            -webkit-transition: 0.8s;
+                            -moz-transition: 0.8s;
+                            -ms-transition: 0.8s;
+                            -o-transition: 0.8s;
+
+                            &:nth-child(1) {
+                                color: rgb(155, 154, 154);
+                            }
+
+                            &:nth-child(2) {
+                                color: #fff;
+                            }
+                        }
+                    }
+                }
+
+                .dropdown {
+
+                    .dropdown-toggle {
+                        height: 100%;
+
+                        img {
+                            height: 26px;
+                        }
+                        
+                        &::after {
+                            display:none;
+                        }
+                    }
+
+                    .dropdown-menu {
+                        right: 0;
+                        left: unset;
+                        margin-top: 15px;
+
+                        .info {
+                            text-align: center;
+                            margin: 20px 0;
+
+                            img {
+                                height: 40px;
+                                margin-bottom: 10px;
+                            }
+
+                            h6 {
+                                margin-bottom: 0;
+                            }
+
+                            span {
+                                font-size: 14px;
+                            }
+
+                            p {
+                                margin-bottom: 0;
+                                font-weight: 700;
+
+                                i {
+                                    font-size: 10px;
+                                    margin-right: 5px;
+                                    color: rgb(10, 190, 10)
+                                }
+                            }
+                        }
+
+                        .dropdown-item {
+                            font-size: 14px;
+
+                            i {
+                                margin-right: 10px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .header-info {
+        background: #000;
+        
+        .info {
+            color: #fff;
+            height: 100%;
+            padding: 120px 0 0 0;
+            text-align: right;
+
+            h1 {
+                font-size: 74px;
+                font-weight: bold;
+            }
+
+            h2 {
+                font-size: 30px;
+                margin-top: 30px;
+            }
+
+            p {
+                margin: 30px 0;
+                font-size: 16px;
+            }
+
+            a {
+                font-weight: 700;
+                font-size: 14px;
+            }
+
+            .social-link {
+                margin-top: 30px; 
+    
+                ul {
+                    margin: 0;
+                    padding: 0;
+    
+                    li {
+                        display: inline-block;
+                        margin: 10px; 
+        
+                        a {
+                            color: #fff; 
+        
+                            i::before {
+                                background-color: #343A40;
+                                width: 40px;
+                                height: 40px;
+                                display: inline-block;
+                                font-size: 20px;
+                                padding: 10px;
+                                border-radius: 50%;
+                                transition: .5s;
+                            }
+        
+                            &:hover i::before {
+                                background: #fff;
+                                color: #000;
+                                transform: rotate(360deg); 
+                            } 
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+// Main
+main {
+    .service-section {
+        .service {
+            .more-btn {
+                text-align: center;
+                margin-top: 20px;
+
+                a {
+                    text-decoration: none;
+                    color: #343A40;
+
+                    &:hover {
+                        color: #000;
+                    }
+                }
+            }
+
+            .box-info {
+                box-shadow: 0px 3px 12px 0px #EBEBEB;
+                background-color: #fff;
+                padding: 30px;
+                margin-bottom: 20px;
+                transition: 0.8s;
+                -webkit-transition: 0.8s;
+                -moz-transition: 0.8s;
+                -ms-transition: 0.8s;
+                -o-transition: 0.8s;
+
+                &:hover {
+                    background-image: linear-gradient(to right, rgba(52, 58, 64, 0.8), rgba(52, 58, 64, 0.8)), url(../img/id/niloy.jpg);
+                    background-position: top center;
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    box-shadow: 0px 3px 12px 0px #000;
+                    color: #fff;
+                    transition: 0.8s;
+                    -webkit-transition: 0.8s;
+                    -moz-transition: 0.8s;
+                    -ms-transition: 0.8s;
+                    -o-transition: 0.8s;
+                }
+
+                h4 {
+                    margin-bottom: 0;
+                    font-size: 20px;
+                }
+
+                p {
+                    margin-top: 40px;
+                }
+
+                a {
+                    text-decoration: none;
+                    color: #9b9a9a;
+
+                    &:hover {
+                        color: #fff;
+                    }
+                }
+            }
+
+            .second-box {
+                background-color: #343A40;
+                box-shadow: 0px 3px 12px 0px #000;
+                color: #fff;
+                
+                &:hover {
+                    box-shadow: 0px 3px 12px 0px #EBEBEB;
+                    color: #fff;
+                }
+
+                p {
+                    margin-top: 15px;
+                }
+            }
+        }
+    }
+
+    .hireMe {
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(../img/id/niloy.jpg);
+        background-attachment: fixed;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        color: #fff;
+        text-align: center;
+
+        a {
+            font-size: 14px;
+            font-weight: bold;
+        }
+    }
+
+    .education-section {
+        .section-header {
+            text-align: center;
+        }
+
+        .faq {
+            border-radius: 4px;
+
+            .card {
+                background: none;
+                border-bottom: 1px dashed #CEE1F8;
+                margin-bottom: 10px;
+                
+                .card-header {
+                    padding: 0px;
+                    border: none;
+                    background: #f2f3f7;
+                    -webkit-transition: all 0.3s ease 0s;
+                    -moz-transition: all 0.3s ease 0s;
+                    -o-transition: all 0.3s ease 0s;
+                    transition: all 0.3s ease 0s;
+
+                    &:hover {
+                        background: #343A40;
+                        padding-left: 10px;
+                    }
+
+                    .faq-title {
+                        width: 100%;
+                        text-align: center;
+                        padding: 20px 30px;
+                        font-weight: 400;
+                        font-size: 15px;
+                        letter-spacing: 1px;
+                        color: #3B566E;
+                        text-decoration: none;
+                        -webkit-transition: all 0.3s ease 0s;
+                        -moz-transition: all 0.3s ease 0s;
+                        -o-transition: all 0.3s ease 0s;
+                        transition: all 0.3s ease 0s;
+                        cursor: pointer;
+                        margin-bottom: 0;
+
+                        &:hover {
+                            color: #fff;
+                        }
+                    }
+                }
+
+                .card-body {
+                    padding: 30px;
+                    padding-left: 35px;
+                    padding-bottom: 16px;
+                    font-weight: 400;
+                    font-size: 16px;
+                    color: #6F8BA4;
+                    line-height: 28px;
+                    letter-spacing: 1px;
+                    border-top: 1px solid #d7d7da;
+
+                    .institute-info {
+                        color: darkgray; 
+                    }
+
+                    li {
+                        font-size: 16px;
+                    }
+
+                    p {
+                        margin-bottom: 14px;
+                    }
+                }
+            }
+        }
+    }
+
+    .blog {
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(../img/id/niloy.jpg);
+        background-attachment: fixed;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+
+        .more-btn {
+            text-align: center;
+            margin-top: 20px;
+
+            a {
+                text-decoration: none;
+                color: #fff;
+
+                &:hover {
+                    color: rgb(185, 185, 185);
+                }
+            }
+        }
+
+        .section-header {
+            color: #fff;
+            text-align: center;
+
+            p {
+                width: 80%;
+                margin: 0 auto;
+            }
+        }
+
+        .blog-box {
+            background: linear-gradient(to right, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url(../img/id/niloy.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            padding: 40px 20px 20px 20px;
+            box-shadow: 0px 3px 12px 0px #fff;
+            margin-bottom: 20px;
+
+            &:hover {
+                background: url(../img/id/niloy.jpg);
+            }
+
+            figure {
+                margin: 0 auto;
+                overflow: hidden;
+    
+                img {
+                    width: 100%;
+                    height: 220px;
+                }
+    
+                figcaption {
+                    margin-top: 20px;
+    
+                    .pull-left {
+                        float: left;
+    
+                        i {
+                            padding: 10px;
+                            font-size: 24px;
+                            color: #343A40;
+                            border: 1px solid #343A40;
+                            border-radius: 20px;
+                            -webkit-border-radius: 20px;
+                            -moz-border-radius: 20px;
+                            -ms-border-radius: 20px;
+                            -o-border-radius: 20px;
+                            transition: 0.8s;
+                            -webkit-transition: 0.8;
+                            -moz-transition: 0.8;
+                            -ms-transition: 0.8;
+                            -o-transition: 0.8;
+    
+                            &:hover {
+                                color: #fff;
+                                border: 1px solid #343A40;
+                                background: #343A40;
+                                transition: 0.8s;
+                                -webkit-transition: 0.8;
+                                -moz-transition: 0.8;
+                                -ms-transition: 0.8;
+                                -o-transition: 0.8;
+                            }
+                        }
+                    }
+    
+                    .pull-right {
+                        text-align: right;
+                        font-style: italic;
+                    }
+                }
+            }
+    
+            h4 {
+                font-size: 18px;
+                text-transform: capitalize;
+            }
+    
+            a {
+                text-decoration: none;
+                color: #343A40;
+    
+                &:hover {
+                    color: #000;
+                }
+            }
+        }
+    }
+
+}
+
+// Footer
+footer {
+    a {
+        &:hover {
+            text-decoration: none;
+        }
+    }
+}
+
+.swal-modal {
+    .swal-title {
+        font-size: 16px;
+        font-weight: 700;
+    }
+
+    .swal-text {
+        padding: 13px 16px;
+        font-size: 14px;
+        color: #000;
+    }
+
+    .swal-footer {
+        margin-top: 32px;
+
+        .swal-button {
+            padding: 7px 20px;
+            background-color: #23272B;
+            font-size: 12px;
+    
+            &:not([disabled]):hover {
+                background-color: #000;
+            }
+        }
+    }
+}
